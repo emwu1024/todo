@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To-do List Project</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>My To-Do List</h1>
+      <div class="container-search">
+        <input type="text" id="inputToDo" placeholder="Task Name">
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+    </div>
+    <div class="container-todo">
+      <ul id="ulToDo">
+        <li>Go to gym</li>
+        <li class="checked">Pay bills</li>
+        <li>Check emails</li>
+        <li>Buy eggs</li>
+        <li>Read a book</li>
+        <li>Finish making this to do list</li>
+      </ul> 
+    </div>
+
+    <!-- Script must go beneath the other tags -->
+    <script src="/index.js"></script>
+  </body>
+</html>
